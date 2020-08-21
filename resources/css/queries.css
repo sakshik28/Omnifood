@@ -1,0 +1,195 @@
+/*big tablets to 1200px(widths smaller than the 1140px row)*/
+@media only screen and (max-width:1200px)
+{
+    h3
+   {
+    font-size:.9rem;
+   }
+    .long-copy
+    {
+    width:80%;
+    margin-left:10%;
+   
+    }
+    .city-features
+    {
+        margin-left: 0;
+    }
+    
+    .signup-form
+    {
+     width:65%;
+     margin:0 auto;
+    }
+    
+}
+
+/*small tablets to big tablets tablets in portrait mode from 768px to 1023px*/
+@media only screen and (max-width:1023px)
+{
+    html,body
+    {
+        font-size:18px;
+        
+    }
+     section
+    {
+        padding: 3rem 0;
+    }
+    .row
+    {
+      margin: 0 1rem;
+    }
+    .iphone-app
+    {
+   
+     width:50%;
+    }
+    .btn-app img
+    {
+     height: 40px;
+    }
+    .meal-caption
+    {
+     padding:0;
+    }
+    .city-features
+    {
+     font-size:90%;
+    }
+    .works-step
+    {
+     margin:2.2rem 0;
+    }
+    .signup-form
+    {
+     width:80%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size: 250%; }
+   
+    .footer-nav li
+    {
+     margin-right:.5rem;
+     font-size:.9rem;
+    }
+    .social-links
+    {
+     font-size:1.2rem;
+    }
+}  
+
+
+/*big phones to small tablets from 481px to 767px*/
+@media only screen and (max-width:767px)
+{
+   html, body
+    {
+        font-size:16px;
+    }
+    section
+    {
+        padding:1.5rem 0;
+    }
+    .hero-text-box
+    {
+        width:95%;
+    }
+    .col
+    {
+        width:100%;
+        margin: 0 0 3% 0;
+    }
+    .long-copy
+    {
+        width:100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .mobile-nav-icon
+    {
+     display:inline-block;
+     margin-top: 1.875rem;
+    }
+    .main-nav
+    {
+     float:left;
+     margin-left: 1rem;
+     display:none;
+    }
+    .main-nav li
+    {
+     display:block;
+    }
+    .main-nav li a:after
+    {
+      display:none;
+    }
+    
+    h1
+    {
+      font-size: 1.8rem;
+    }
+    h2
+    {
+      font-size: 1.5rem;
+    }
+   
+    .meal-caption
+    {
+     display:none;
+    }
+    .works-step div
+    {
+     height: 40px;
+     width: 40px;
+     margin-right:1.25rem;
+    }
+    .iphone-app
+    {
+      width:40%;
+    }
+    .steps-box
+    {
+      text-align: center;
+    }
+    .section-cities{text-align: center;}
+    .section-cities h3,
+    .city-features
+    {
+       text-align: left;
+       margin:0 auto 7px auto;
+       width:80%;
+    }
+    .city-image
+    {
+      width:80%;
+    }
+    
+    cite img
+    {
+     width:15%;
+     height:15%;
+    }
+    .form-messages
+    {
+        width:90%;
+    }
+}
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px)
+{
+
+   .signup-form
+    {
+        width:100%;
+    }
+}
+
+
+ 
